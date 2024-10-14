@@ -2,7 +2,7 @@ import Catag from "@/components/Allpages/Catag";
 import { Mainnews } from "@/components/Allpages/Mainnews";
 import { Sidebar } from "@/components/Allpages/Sidebar";
 
-export default async function Home() {
+export default function Home() {
 
 
   return (
