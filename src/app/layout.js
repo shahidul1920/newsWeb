@@ -13,7 +13,7 @@ export default function RootLayout({ children }) {
       <body>
         <Navbar />
 
-        <div className="container max-w-[1170px] mx-auto h-[80vh]">
+        <div className="container max-w-[1170px] mx-auto">
           {children}
         </div>
 

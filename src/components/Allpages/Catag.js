@@ -4,15 +4,15 @@ import React from 'react'
 export default async function Catag() {
     const {data} = await allCatg()
   return (
-    <div>
+    <div className='p-[5px]'>
       <div className="heading">
         <h2 className="text-[50px] font-semibold">
           Latest News
         </h2>
       </div>
-      <div className="flex bg-hero gap-5">
+      <div className="flex my-[2rem] bg-hero max-w-[100%] flex-wrap gap-5">
        {data?.map((e)=>(
-        <div className="btn btn-outline my-[2rem] rounded-[25px]">
+        <div className="btn btn-outline rounded-[25px]">
           {e.title}
         </div>
        ))}
