@@ -13,12 +13,8 @@ export const Navbar = () => {
             path: '/'
         },
         {
-            route: 'Categories',
-            path: '/categories'
-        },
-        {
-            route: 'Latest',
-            path: '/latest'
+            route: 'All News',
+            path: '/allNews'
         },
         {
             route: 'About',

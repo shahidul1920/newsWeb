@@ -11,12 +11,12 @@ export default async function Home() {
         <Catag />
       </div>
 
-      <div className="newsSection flex flex-wrap">
-        <div className="mainNews w-[60%]">
+      <div className="newsSection grid grid-cols-1 md:grid-cols-2">
+        <div className="mainNews">
           <Mainnews />
         </div>
 
-        <div className="sideBar w-[40%]">
+        <div className="sideBar">
           <Sidebar />
         </div>
 
