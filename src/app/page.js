@@ -12,11 +12,11 @@ export default async function Home() {
       </div>
 
       <div className="newsSection grid grid-cols-1 md:grid-cols-2">
-        <div className="mainNews">
+        <div className="mainNews max-w-[700px]">
           <Mainnews />
         </div>
 
-        <div className="sideBar">
+        <div className="sideBar max-w-[400px]">
           <Sidebar />
         </div>
 
